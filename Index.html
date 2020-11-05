@@ -65,10 +65,10 @@
                     const classPrediction =
                         prediction[i].className + ": " + prediction[i].probability.toFixed(2);
                     //labelContainer.childNodes[i].innerHTML = classPrediction;
-		    if(prediction[0].className == "class 1" && prediction[0].probability.toFixed(2)== 1.00)        
+		    if(prediction[0].className == "Class 1" && prediction[0].probability.toFixed(2)== 1.00)        
 		    {            
 			labelContainer.childNodes[0].innerHTML = "텀블러는 물먹는거!";        }        
-		    else if(prediction[1].className == "class 2" && prediction[1].probability.toFixed(2)== 1.00)        
+		    else if(prediction[1].className == "Class 2" && prediction[1].probability.toFixed(2)== 1.00)        
 		    {   
 			labelContainer.childNodes[0].innerHTML = "이거는 봉봉이네~";        }        
 		    else
